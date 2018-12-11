@@ -1,6 +1,6 @@
 /*
 Language: Groovy
-Author: Guillaume Laforge <glaforge@gmail.com>
+Author: Elvis Kouekam <elvis.kouekam@gmail.com>
 Category: Inspired from Vsevolod's Java mode, but adapted to work with Groovy.
 */
 hljs.LANGUAGES.groovy  = {

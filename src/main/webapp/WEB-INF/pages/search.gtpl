@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Search Guillaume Laforge's Blog</title>
+    <title>Search Elvis Kouekam's Blog</title>
     <script src="http://www.google.com/jsapi" type="text/javascript"></script>
     <script type="text/javascript">
         google.load('search', '1', {language:'en'});

@@ -1,6 +1,11 @@
 import com.google.appengine.api.datastore.Entity
 
+//import groovyx.gaelyk.datastore.Entity
+//import groovyx.gaelyk.datastore.Key
+//import groovyx.gaelyk.datastore.Unindexed
+
 import static bloogy.Utilities.*
+
 
 def keyName = params.id
 def created = Date.parse('yyyy/MM/dd HH:mm', params.created)
@@ -30,6 +35,9 @@ if (params.categories == null) {
 }
 
 postOrPage.save()
+
+//Post(title:params.title,content:params.content,draft:params.draft,type:params.type,categories:params.categories)
+//Post.save()
 
 memcache.clearCacheForUri "/${postOrPage.type == 'page' ? 'page' : 'article'}/${postOrPage.key.name}"
 memcache.clearCacheForUri '/archives'

@@ -32,7 +32,7 @@
                     <li class="${homeStyle}"><a href="/">Home</a></li>
                     <li class="${archivesStyle}"><a href="/archives">Archives</a></li>
                     <li class="${searchStyle}"><a href="/search">Search</a></li>
-                    <% if (user && users.isUserLoggedIn() && users.isUserAdmin() && originalURI.contains('admin')) { %>
+                    <% if (user && users.isUserLoggedIn() && users.isUserAdmin() && originalURI.contains('admin') ) { %>
                     <li><span
                             style="color: white; font-size: 2.2em; position: relative; top: 4px; margin-left: 10px; margin-right: 10px;">|</span>
                     </li>

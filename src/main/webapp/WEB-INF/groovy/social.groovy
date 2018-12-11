@@ -66,10 +66,10 @@ try {
     // date format: Thu, 28 Jul 2011 07:32:22 +0000
     sdf = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.US)
 
-    def deliciousDoc = slurper.parseText(delicious.get().text)
+    def deliciousDoc = slurper.parseText(mixcloud.get().text)
     deliciousDoc.channel.item.each { entry ->
         items << [
-                origin: 'delicious',
+                origin: 'mixcloud',
                 title: entry.title.text(),
                 published: sdf.parse(entry.pubDate.text()),
                 link: entry.link.text()

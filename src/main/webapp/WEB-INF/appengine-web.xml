@@ -3,6 +3,7 @@
     
     <version>1</version>
 
+    <runtime>java8</runtime>
     <!-- Enable concurrent requests by default to serve requests in parallel -->
     <threadsafe>true</threadsafe>
 
@@ -25,18 +26,30 @@
 
     <!-- Only allow the SDK and administrators to have access to the incoming email endpoint -->
     <admin-console>
+	    
         <page name="Edit categories" url="/admin/categories" />
         <page name="Edit blog posts" url="/admin/posts" />
         <page name="Edit media" url="/admin/media" />
+             
     </admin-console>
     
     <!-- It it advised to keep this parameter to true -->
     <!-- as per the release of SDK 1.2.8, -->
     <!-- this should speed up cold startups of applications by 10% -->
     <precompilation-enabled>true</precompilation-enabled>
-    
     <static-files>
-        <exclude path="/WEB-INF/**.groovy" />
+        <include path="**.html" />
+        <include path="**.css" />
+        <include path="**.jpg" />
+        <include path="**.png" />
+        <include path="**.gif" />
+        <include path="**.swf" />
+        <include path="**.js" />
+        <include path="**.pdf" />
+        <include path="/robots.txt" />
+        <include path="/sitemap.xml" />
+	<include path="/msg.txt" />    
+	<exclude path="/WEB-INF/**.groovy" />
         <exclude path="**.gtpl" />
     </static-files>
 </appengine-web-app>

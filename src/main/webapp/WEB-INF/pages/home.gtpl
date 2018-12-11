@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Guillaume Laforge's Blog</title>
+    <title>Elvis Kouekam's Blog</title>
     <% include '/WEB-INF/includes/syntaxHighlighting.gtpl' %>
     <% include '/WEB-INF/includes/meta.gtpl' %>
 </head>
@@ -20,6 +20,7 @@
             <div id="main-wrapper">
                 <div id="main">
 
+
                     <%
                         // no articles to display
                         if (!request.posts) {
@@ -32,10 +33,8 @@
                         request.posts.each { post ->
                     %>
 
-                    <div class="post">
-
+		         <div class="post">
                         <div class="post-title"><h1><a href="/article/${post.key.name}">${post.title}</a></h1></div>
-
                         <div class="post-date">
                             <% if (user && users.isUserLoggedIn() && users.isUserAdmin()) { %>
                             <form action="/admin/posts/edit/${post.key.name}" method="post">
@@ -44,11 +43,9 @@
                             <% } %>
                             Posted on ${post.created.format('dd MMMM, yyyy')} (${new com.ocpsoft.pretty.time.PrettyTime().format(post.created)})
                         </div>
-
                         <div class="post-body">
                             ${post.content}
                         </div>
-
                         <% if (post.categories) { %>
                         <div class="post-meta">
                             In categories:
@@ -57,15 +54,16 @@
                             <% } %>
                         </div>
                         <% } %>
-
                     </div>
+
+
 
                     <%
                         }
                     %>
 
-                    <div class="post-meta archive-pagination">
 
+                      <div class="post-meta archive-pagination">
                         <%
                             int page = request.page
                             if (request.posts && request.posts.size() == 5) {
@@ -74,7 +72,6 @@
                         <%
                             }
                             if (page) {
-
                         %>
                         <div class="right"><a href="${(page - 1) ? ('/p' + (page - 1)) : '/'}">Next page &#187;</a>
                         </div>
@@ -82,10 +79,11 @@
                             }
                         %>
                         <div class="clearer">&nbsp;</div>
-
                     </div>
 
-                </div>
+
+
+               </div>
             </div>
 
             <% include '/WEB-INF/includes/left.gtpl' %>

@@ -3,7 +3,7 @@
 
 <head>
     <% include '/WEB-INF/includes/meta.gtpl' %>
-    <title>Not allowed -- Guillaume Laforge's Blog</title>
+    <title>Not allowed -- Elvis Kouekam's Blog</title>
 </head>
 
 <body id="top">

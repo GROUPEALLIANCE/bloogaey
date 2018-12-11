@@ -50,7 +50,7 @@
                                 ['Drafts': request.drafts, 'Posts': request.posts, 'Pages': request.pages].each { type, posts ->
                             %>
                             <div id="${type}">
-                                <ul class="nice-list">
+                                <ul >
                                     <% posts.each { post -> %>
                                     <li>
                                         <form action="/admin/posts/delete/${post.key.name}" method="post">

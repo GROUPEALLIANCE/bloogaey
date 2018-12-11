@@ -5,21 +5,21 @@
             <div id="header">
 
                 <div id="logo">
-                    <h1 id="site-title"><a href="/">Guillaume <span>Laforge</span></a></h1>
+                    <h1 id="site-title"><a href="/">Elvis <span>Kouekam</span></a></h1>
 
-                    <h2 id="site-slogan">On all things Groovy!</h2>
+                    <h2 id="site-slogan"> Let no one ignorant of algorithms enter </h2>
                 </div>
 
                 <div id="help-wrapper">
-                    <a href="http://feeds.feedburner.com/glaforge">
+                    <a href="http://feeds.feedburner.com/elvis.kouekam">
                         <img src="/images/feed.png" alt="Atom feed" align="left"
                              style="position: relative; top: 12px; left: -10px">
                     </a>
 
                     <div id="help">
 
-                        <a href="/page/contact-me">Contact me</a> <span class="text-separator">|</span>
-                        <a href="/page/about-this-site">About this site</a>
+                        <a href="/pages/contact-me">Contact me</a> <span class="text-separator">|</span>
+                        <a href="/pages/about-this-site">About this site</a>
 
                     </div>
                 </div>

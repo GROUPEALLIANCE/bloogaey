@@ -3,7 +3,7 @@
 
 <head>
     <% include '/WEB-INF/includes/meta.gtpl' %>
-    <title>An error occured -- Guillaume Laforge's Blog</title>
+    <title>An error occured -- Elvis Kouekam's Blog</title>
 </head>
 
 <body id="top">

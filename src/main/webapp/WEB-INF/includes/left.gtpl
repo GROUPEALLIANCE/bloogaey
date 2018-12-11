@@ -73,7 +73,7 @@
 
             <div class="box-content">
                 <p>
-                    <a href="/page/contact-me">Guillaume Laforge</a> is blogging here about whatever comes to his mind,
+                    <a href="/pages/contact-me">Elvis Kouekam</a> is blogging here about whatever comes to his mind,
                 but mostly about technology, and especially topics related to
                 the <a href="http://groovy.codehaus.org">Groovy</a> dynamic language,
                 the <a href="http://gaelyk.appspot.com">Gaelyk</a> lightweight toolkit

@@ -1,11 +1,11 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="Guillaume Laforge's blog"/>
+<meta name="description" content="Elvis Kouekam's blog"/>
 <meta name="keywords"
-      content="Guillaume Laforge, blog, Guillaume Laforge blog, groovy, groovy language, groovy programming, groovy programming language, gaelyk, grails, java, dynamic language, programming, springsource, vmware, gradle, spock, griffon, conference"/>
-<meta name="author" content="Guillaume Laforge"/>
+      content="Elvis Kouekam, blog, Elvis Kouekam blog, groovy, groovy language, groovy programming, groovy programming language, gaelyk, grails, java, dynamic language, programming, springsource, vmware, gradle, spock, griffon, conference"/>
+<meta name="author" content="Elvis Kouekam"/>
 <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen"/>
-<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/glaforge"
-      title="Guillaume Laforge's blog feed"/>
+<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/elvis.kouekam"
+      title="Elvis Kouekam's blog feed"/>
 
 <% if (!request.getAttribute('originalURI').contains('/admin')) { %>
 <script type="text/javascript">

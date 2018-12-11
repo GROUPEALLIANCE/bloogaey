@@ -18,7 +18,7 @@ def posts = datastore.execute {
 def serverRoot = "http://${request.serverName}${request.serverPort != 80 ? ":$request.serverPort" : ''}"
 
 html.feed(xmlns: "http://www.w3.org/2005/Atom") {
-    title "Guillaume Laforge's blog feed"
+    title "Elvis Kouekam's blog feed"
     subtitle "On all things Groovy!"
     link href: serverRoot, rel: "self"
     updated isoTime.format(new Date())
@@ -42,7 +42,7 @@ html.feed(xmlns: "http://www.w3.org/2005/Atom") {
                 mkp.yield content
             }
             author {
-                name "Guillaume Laforge"
+                name "Elvis Kouekam"
             }
         }
     }

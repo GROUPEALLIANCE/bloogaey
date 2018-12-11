@@ -3,7 +3,7 @@
 
 <head>
     <% include '/WEB-INF/includes/meta.gtpl' %>
-    <title>Page not found -- Guillaume Laforge's Blog</title>
+    <title>Page not found -- Elvis Kouekam's Blog</title>
 </head>
 
 <body id="top">

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Guillaume Laforge's Blog</title>
+    <title>Elvis Kouekam's Blog</title>
     <% include '/WEB-INF/includes/syntaxHighlighting.gtpl' %>
     <% include '/WEB-INF/includes/meta.gtpl' %>
 </head>

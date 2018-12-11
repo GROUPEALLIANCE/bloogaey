@@ -4,7 +4,7 @@
 <head>
     <% def post = request.post %>
 
-    <title>${post.title} -- Guillaume Laforge's Blog</title>
+    <title>${post.title} -- Elvis Kouekam's Blog</title>
     <% include '/WEB-INF/includes/syntaxHighlighting.gtpl' %>
     <% include '/WEB-INF/includes/meta.gtpl' %>
 

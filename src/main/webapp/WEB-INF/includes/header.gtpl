@@ -5,13 +5,13 @@
             <div id="header">
 
                 <div id="logo">
-                    <h1 id="site-title"><a href="/">Guillaume <span>Laforge</span></a></h1>
+                    <h1 id="site-title"><a href="/">Elvis <span>Kouekam</span></a></h1>
 
                     <h2 id="site-slogan">On all things Groovy!</h2>
                 </div>
 
                 <div id="help-wrapper">
-                    <a href="http://feeds.feedburner.com/glaforge">
+                    <a href="http://feeds.feedburner.com/elvis.kouekam">
                         <img src="/images/feed.png" alt="Atom feed" align="left"
                              style="position: relative; top: 12px; left: -10px">
                     </a>

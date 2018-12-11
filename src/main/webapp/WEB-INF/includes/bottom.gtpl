@@ -3,7 +3,7 @@
     <div class="center-wrapper">
 
         <div class="left">
-        &copy; 2012 Guillaume Laforge <span class="text-separator">|</span>
+        &copy; 2012 Elvis Kouekam <span class="text-separator">|</span>
             The views and opinions expressed here are mine and don't reflect the ones from my employer.
         </div>
 

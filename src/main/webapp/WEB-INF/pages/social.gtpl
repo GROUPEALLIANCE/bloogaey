@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Social (twitter, delicious, google reader) -- Guillaume Laforge's Blog</title>
+    <title>Social (twitter, delicious, google reader) -- Elvis Kouekam's Blog</title>
     <script src="http://www.google.com/jsapi" type="text/javascript"></script>
     <% include '/WEB-INF/includes/meta.gtpl' %>
 </head>
@@ -30,14 +30,14 @@
                                 This page gathers:
                             </p>
                             <ul>
-                                <li>my <a href="http://twitter.com/glaforge">tweets on Twitter</a>,</li>
+                                <li>my <a href="http://twitter.com/elviskouekam">tweets on Twitter</a>,</li>
                                 <li>my <a
-                                        href="https://plus.google.com/114130972232398734985/posts">public posts on Google+</a>,
+                                        href="https://plus.google.com/114796952758506838114/posts">public posts on Google+</a>,
                                 </li>
                                 <li>my <a
-                                        href="http://www.google.com/reader/shared/glaforge">shared items in Google Reader</a>,
+                                        href="http://www.google.com/reader/shared/ekouekam">shared items in Google Reader</a>,
                                 </li>
-                                <li>and my <a href="http://www.delicious.com/glaforge">saved bookmakrs on Delicious</a>.
+                                <li>and my <a href="http://www.mixcloud.com/elvis-kouekam">saved bookmakrs on Vibrations</a>.
                                 </li>
                             </ul>
 

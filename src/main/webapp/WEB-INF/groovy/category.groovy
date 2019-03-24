@@ -8,7 +8,7 @@ if (params.category) {
     int page = params.page ? params.page.toInteger() : 0
 
     def posts = datastore.execute {
-        from posts
+        select all from posts
         limit pageSize offset pageSize * page
         where created < new Date() + 1
         and draft == false

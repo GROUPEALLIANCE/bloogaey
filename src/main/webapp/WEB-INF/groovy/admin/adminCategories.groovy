@@ -1,6 +1,5 @@
-
 request.categories  = datastore.execute {
-    from categories
+    select all from categories
     sort asc by name
 }
 

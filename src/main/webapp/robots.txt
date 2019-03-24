@@ -1,4 +1,4 @@
-Sitemap: http://ekouekam-225014.appspot.com/sitemap.xml
+Sitemap: http://ekouekam.appspot.com/sitemap.xml
 User-agent: *
 Disallow: /admin
 Disallow: /live

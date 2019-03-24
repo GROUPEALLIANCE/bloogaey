@@ -1,0 +1,32 @@
+indexes:
+
+- kind: posts
+  ancestor: no
+  properties:
+  - name: draft
+    direction: asc
+  - name: created
+    direction: desc
+
+- kind: posts
+  ancestor: no 
+  properties:
+  - name: draft 
+    direction: asc
+  - name: type
+    direction: asc
+  - name: created
+    direction: desc
+
+
+- kind: posts
+  ancestor: no
+  properties:
+  - name: categories
+    direction: asc
+  - name: draft
+    direction: asc
+  - name: type
+    direction: asc 
+  - name: created
+    direction: desc

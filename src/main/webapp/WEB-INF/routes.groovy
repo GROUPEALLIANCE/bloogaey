@@ -20,6 +20,9 @@ get "/feed/atom",                       forward: '/feed.groovy',                
 
 get "/social",                          redirect301: '/'
 
+get "/pages/contact-me",                 forward: '/contact-me.groovy',                                                            cache: cache
+get "/pages/about-this-site",            forward: '/about-this-site.groovy',                                                            cache: cache
+
 get "/search",                          forward: '/search.groovy',                                                          cache: 24.hours
 
 get "/admin/categories",                forward: '/admin/adminCategories.groovy'

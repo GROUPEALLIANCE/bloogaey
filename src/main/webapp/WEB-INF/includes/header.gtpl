@@ -18,8 +18,8 @@
 
                     <div id="help">
 
-                        <a href="/page/contact-me">Contact me</a> <span class="text-separator">|</span>
-                        <a href="/page/about-this-site">About this site</a>
+                        <a href="/pages/contact-me">Contact me</a> <span class="text-separator">|</span>
+                        <a href="/pages/about-this-site">About this site</a>
 
                     </div>
                 </div>

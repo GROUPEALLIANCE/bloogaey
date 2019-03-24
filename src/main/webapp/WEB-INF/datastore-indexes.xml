@@ -1,0 +1,19 @@
+<!-- Indices written at Mon, 24 Dec 2018 13:29:14 CET -->
+
+<datastore-indexes
+	autoGenerate="false">
+
+    <!-- Used 7 times in query history -->
+    <datastore-index kind="posts" ancestor="false" source="manuel">
+        <property name="draft" direction="asc"/>
+        <property name="type" direction="asc"/>
+        <property name="created" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="posts" ancestor="false" source="manuel">
+        <property name="draft" direction="asc"/>
+        <property name="created" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>

@@ -7,7 +7,7 @@ int page = params.page ? params.page.toInteger() : 0
 
 // Retrieve 10 posts
 def posts = datastore.execute {
-    from posts
+    select all from posts
     limit pageSize offset pageSize * page
     where created < upperDate
     and draft == false

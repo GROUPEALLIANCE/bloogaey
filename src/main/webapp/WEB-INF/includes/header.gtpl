@@ -7,7 +7,7 @@
                 <div id="logo">
                     <h1 id="site-title"><a href="/">Elvis <span>Kouekam</span></a></h1>
 
-                    <h2 id="site-slogan">On all things Groovy!</h2>
+                    <h2 id="site-slogan"> Let no one ignorant of algorithms enter </h2>
                 </div>
 
                 <div id="help-wrapper">

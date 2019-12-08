@@ -19,7 +19,7 @@ def serverRoot = "http://${request.serverName}${request.serverPort != 80 ? ":$re
 
 html.feed(xmlns: "http://www.w3.org/2005/Atom") {
     title "Elvis Kouekam's blog feed"
-    subtitle "On all things Groovy!"
+    subtitle "Let no one ignorant of algorithms enter"
     link href: serverRoot, rel: "self"
     updated isoTime.format(new Date())
     generator(uri: "http://gaelyk.appspot.com", version: app.gaelyk.version, "Gaelyk lightweight Groovy toolkit for Google App Engine")

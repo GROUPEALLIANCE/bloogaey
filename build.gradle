@@ -1,9 +1,11 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
 apply plugin: 'gaelyk'
 apply plugin: 'gae-geb'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 
-def compatibilityVersion = 1.7
+def compatibilityVersion = 1.8
 sourceCompatibility = compatibilityVersion
 targetCompatibility = compatibilityVersion
 
@@ -21,6 +23,10 @@ buildscript {
         classpath 'org.gradle.api.plugins:gradle-gae-geb-plugin:0.3'
     }
 }
+   task wrapper(type: Wrapper) {
+       gradleVersion = '1.6'
+    }
+
 
 repositories {
     mavenCentral()
